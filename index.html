@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tire Calculator</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="calculator-container" class="container">
+        <div class="inner-container">
+            <img src="assets/images/logo.png" alt="Logo" class="logo img-fluid mb-3">
+            <div class="top-input-container">
+                <label class="label">Tùy chỉnh (%):</label>
+                <input type="number" id="custom-spray-time" class="custom-input form-control" value="100">
+            </div>
+            <div class="input-container">
+                <label class="label">Chiều rộng lốp:</label>
+                <input type="number" id="width-input" class="input form-control">
+            </div>
+            <div class="input-container">
+                <label class="label">Chiều cao lốp:</label>
+                <input type="number" id="aspect-ratio-input" class="input form-control">
+            </div>
+            <div class="input-container">
+                <label class="label">Đường kính mâm:</label>
+                <input type="number" id="rim-diameter-input" class="input form-control">
+            </div>
+            <button id="calculate-button" class="btn btn-primary mt-3">Tính toán</button>
+            <button id="refresh-button" class="btn btn-secondary mt-3">Làm mới</button>
+            <p id="result-tread" class="result-text mt-3">Thời gian phun cao su: </p>
+            <p id="result-sidewall" class="result-text">Thời gian phun mép: </p>
+        </div>
+        <div class="water-mark text-center mt-5">
+            <p>Designed by Minh Vu</p>
+            <p>Data by Minh Hy</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

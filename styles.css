@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+.inner-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center content inside the inner container */
+}
+
+.logo {
+    max-width: 200px;
+    margin: 0 auto 20px; /* Center the logo and add bottom margin */
+    display: block;
+}
+
+.label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.input,
+.custom-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+}
+
+.result-text {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #e9ecef;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.water-mark {
+    margin-top: 50px;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+    .inner-container {
+        padding: 15px;
+    }
+
+    .label {
+        margin-top: 15px;
+    }
+
+    .btn {
+        padding: 12px;
+    }
+}
